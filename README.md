@@ -1,2 +1,2 @@
-# android-samples-code
-Samples code for school project in android
+# android-code-sample
+Code sample in android for school project
