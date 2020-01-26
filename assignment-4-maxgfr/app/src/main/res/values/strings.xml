@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TP 4 - Converter</string>
+    <string name="convert">Convert</string>
+    <string name="switched">Switch</string>
+    <string name="to">TO</string>
+    <string name="propmpt">Choose a devise</string>
+</resources>

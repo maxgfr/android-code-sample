@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemamisss.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First TP"
+        android:layout_marginVertical="20dp"
+        android:textSize="25dp"
+        />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:minLines="1"
+        android:gravity="top|left"
+        android:maxLines="10"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply"
+        android:background="@color/colorPrimary"
+        android:layout_marginVertical="20dp"
+        android:textColor="@color/cardview_light_background"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:textSize="10dp" />
+
+    <com.skydoves.colorpickerview.ColorPickerView
+        android:id="@+id/colorPickerView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:palette="@drawable/palette"
+        app:selector="@drawable/wheel" />
+
+    <com.gc.materialdesign.views.Slider
+        android:id="@+id/slider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        materialdesign:max="50"
+        materialdesign:min="10"
+        materialdesign:showNumberIndicator="true"/>
+
+
+</LinearLayout>
